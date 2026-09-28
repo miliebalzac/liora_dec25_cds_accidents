@@ -1,0 +1,8 @@
+streamlit==1.63.0
+pandas==3.0.5
+numpy==2.5.2
+matplotlib==3.11.1
+matplotlib-inline==0.2.2
+seaborn==0.13.2
+scikit-learn==1.9.0
+scipy==1.18.0
