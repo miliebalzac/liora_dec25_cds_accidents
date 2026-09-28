@@ -6,3 +6,4 @@ matplotlib-inline==0.2.2
 seaborn==0.13.2
 scikit-learn==1.9.0
 scipy==1.18.0
+xgboost==2.1.4
