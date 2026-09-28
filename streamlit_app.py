@@ -30,7 +30,7 @@ st.sidebar.title("Sommaire")
 pages = ["Exploration", "DataVizualization", "FeaturesSelection", "Modélisation", "Carte"]
 page = st.sidebar.radio("Aller vers", pages)
 
-en_ligne = False
+en_ligne = True
 
 dossier_exploration = "C:/Env_Python/Projet DS accidents/FOR_STREAMLIT/EXPLORATION/"
 dossier_visualisation = "C:/Env_Python/Projet DS accidents/FOR_STREAMLIT/DATAVISUALIZATION/"
