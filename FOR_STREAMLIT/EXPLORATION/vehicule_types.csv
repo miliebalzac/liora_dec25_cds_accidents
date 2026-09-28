@@ -1,0 +1,12 @@
+;2019;2020;2021;2022;2023;2024
+Num_Acc;int64;int64;int64;int64;int64;int64
+id_vehicule;object;object;object;object;object;object
+num_veh;object;object;object;object;object;object
+senc;int64;int64;int64;int64;int64;int64
+catv;int64;int64;int64;int64;int64;int64
+obs;int64;int64;int64;int64;int64;int64
+obsm;int64;int64;int64;int64;int64;int64
+choc;int64;int64;int64;int64;int64;int64
+manv;int64;int64;int64;int64;int64;int64
+motor;int64;int64;int64;int64;int64;int64
+occutc;float64;float64;float64;float64;float64;float64

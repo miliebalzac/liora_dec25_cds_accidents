@@ -1,0 +1,28 @@
+;manv;description
+0;0.0;Inconnue
+1;1.0;Sans changement de direction
+2;10.0;En faisant demi-tour sur la chaussée
+3;11.0;Changeant de file - A gauche
+4;12.0;Changeant de file - A droite
+5;13.0;Déporté - A gauche
+6;14.0;Déporté - A droite
+7;15.0;Tournant - A gauche
+8;16.0;Tournant - A droite
+9;17.0;Dépassant - A gauche
+10;18.0;Dépassant - A droite
+11;19.0;Divers - Traversant la chaussée
+12;2.0;Même sens, même file
+13;20.0;Divers - Manoeuvre de stationnement
+14;21.0;Divers - Manoeuvre d'évitement
+15;22.0;Divers - Ouverture de porte
+16;23.0;Divers - Arrêté (hors stationnement)
+17;24.0;Divers - En stationnement (avec occupants)
+18;25.0;Divers - Circulant sur trottoir
+19;26.0;Divers - Autres manœuvres
+20;3.0;Entre 2 files
+21;4.0;En marche arrière
+22;5.0;A contresens
+23;6.0;En franchissant le terre-plein central
+24;7.0;Dans le couloir bus, dans le même sens
+25;8.0;Dans le couloir bus, dans le sens inverse
+26;9.0;En s'insérant

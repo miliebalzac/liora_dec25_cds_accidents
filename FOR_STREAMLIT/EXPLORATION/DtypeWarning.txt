@@ -1,0 +1,2 @@
+DtypeWarning: Columns (6) have mixed types. lieux_2022.csv
+DtypeWarning: Columns (12) have mixed types. lieux_2023.csv

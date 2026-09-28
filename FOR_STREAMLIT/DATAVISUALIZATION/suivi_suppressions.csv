@@ -1,0 +1,31 @@
+;colonne;motif de la suppression;taux de na;nb modalités
+0;Num_Acc;colonne d'id;0.0;327628
+1;id_vehicule;colonne d'id;0.0;555838
+2;num_veh_x;colonne d'id;0.0;86
+3;num_veh_y;colonne d'id;0.0;86
+4;id_usager;colonne d'id;0.0;648759
+5;an_nais;remplacé par classe_age;0.0;115
+6;trajet;pourcentage de valeurs manquantes supérieur à 0,2;206407.0;6
+7;secu2;pourcentage de valeurs manquantes supérieur à 0,2;302328.0;10
+8;secu3;pourcentage de valeurs manquantes supérieur à 0,2;724700.0;10
+9;locp;pourcentage de valeurs manquantes supérieur à 0,2;341458.0;10
+10;actp;pourcentage de valeurs manquantes supérieur à 0,2;310249.0;12
+11;etatp;pourcentage de valeurs manquantes supérieur à 0,2;686451.0;3
+12;jour;sera remplacé par jour de la semaine passage de 31 modalités à 7;0.0;31
+13;mois;sera remplacé par mois_g passage de 12 modalités à 4;0.0;12
+14;hrmn;regroupé dans hrmn_g pour réduire le nombre de modalités;0.0;1440
+15;lum;regroupé dans lum_g pour réduire le nombre de modalités;0.0;5
+16;com;remplacé par la densité de population (DENS) pour réduire le nombre de modalités;0.0;24202
+17;int;regroupé dans int_g pour réduire le nombre de modalités;0.0;9
+18;adr;trop de modalités et pas de regroupement envisagé sur cette colonne;14950.0;114315
+19;voie;trop de modalités et pas de regroupement envisagé sur cette colonne;74457.0;45855
+20;v1;numéro de route n'est pas pertinent;130995.0;3
+21;v2;lettre associée au numéro de route;639995.0;42
+22;pr;n° du PR de rattachement, trop de modalités et pas de regroupement envisagé sur cette colonne;0.0;899
+23;pr1;associé à pr qui a été supprimée car trop de modalités;0.0;2018
+24;lartpc;pourcentage de valeurs manquantes supérieur à 0,2;701237.0;76
+25;larrout;La variable n'est pas renseignée en 2019;125538.0;269
+26;vma;regroupé dans vma_g pour réduire le nombre de modalités;13758.0;51
+27;senc;peu pertinente et liée au n° de voie déjà supprimé;0.0;4
+28;manv;regroupé dans manv_g pour réduire le nombre de modalités;0.0;27
+29;occutc;pourcentage de valeurs manquantes supérieur à 0,2;692656.0;46

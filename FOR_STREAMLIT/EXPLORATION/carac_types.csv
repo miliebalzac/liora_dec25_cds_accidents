@@ -1,0 +1,16 @@
+;2019;2020;2021;2022;2023;2024
+Num_Acc;int64;int64;int64;int64;int64;int64
+jour;int64;int64;int64;int64;int64;int64
+mois;int64;int64;int64;int64;int64;int64
+an;int64;int64;int64;int64;int64;int64
+hrmn;object;object;object;object;object;object
+lum;int64;int64;int64;int64;int64;int64
+dep;object;object;object;object;object;object
+com;object;object;object;object;object;object
+agg;int64;int64;int64;int64;int64;int64
+int;int64;int64;int64;int64;int64;int64
+atm;int64;int64;int64;int64;int64;int64
+col;int64;int64;int64;int64;int64;int64
+adr;object;object;object;object;object;object
+lat;object;object;object;object;object;object
+long;object;object;object;object;object;object

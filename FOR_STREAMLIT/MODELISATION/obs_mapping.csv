@@ -1,0 +1,19 @@
+;obs;description
+0;0.0;Sans objet
+1;1.0;Véhicule stationné
+2;10.0;Parapet
+3;11.0;Ilot
+4;12.0;Bordure de trottoir
+5;13.0;Fossé / Talus
+6;14.0;Autre obs sur chaussée
+7;15.0;Autre obs sur trottoir
+8;16.0;Sortie sans obs
+9;17.0;Buse
+10;2.0;Arbre
+11;3.0;Glissière métallique
+12;4.0;Glissière béton
+13;5.0;Autre glissière
+14;6.0;Batiment, mur
+15;7.0;Support de signalisation
+16;8.0;Poteau
+17;9.0;Mobilier urbain
