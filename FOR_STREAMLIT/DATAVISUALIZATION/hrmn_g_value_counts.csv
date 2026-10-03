@@ -1,5 +1,5 @@
 hrmn_g_label;count
-0 Nuit;60707
-1 Matin;194054
-2 Après-midi;285976
-3 Soir;204002
+0 Nuit 0-6h;60707
+1 Matin 6-12h;194054
+2 Après-midi 12-18h;285976
+3 Soir 18-0h;204002

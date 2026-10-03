@@ -1,11 +1,11 @@
 choc_label;count
-Arrière;70209
-Arrière droit;19435
-Arrière gauche;23997
-Aucun;40224
-Avant;255961
-Avant droit;90990
-Avant gauche;104860
-Coté droit;40071
-Coté gauche;45373
+0 Aucun;40224
+1 Avant;255961
+2 Avant droit;90990
+3 Avant gauche;104860
+4 Arrière;70209
+5 Arrière droit;19435
+6 Arrière gauche;23997
+7 Coté droit;40071
+8 Coté gauche;45373
 ;11338

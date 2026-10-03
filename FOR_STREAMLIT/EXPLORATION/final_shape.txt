@@ -1,0 +1,2 @@
+nb lignes dataset final assemblé : 745 158
+nb colonnes dataset final assemblé : 56

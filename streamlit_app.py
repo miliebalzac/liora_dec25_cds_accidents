@@ -30,7 +30,7 @@ st.sidebar.title("Sommaire")
 pages = ["Exploration", "DataVizualization", "FeaturesSelection", "Modélisation", "Carte"]
 page = st.sidebar.radio("Aller vers", pages)
 
-en_ligne = True  # True si l'application est en ligne, False si elle est en local
+en_ligne = False  # True si l'application est en ligne, False si elle est en local
 
 dossier_exploration = "C:/Env_Python/Projet DS accidents/FOR_STREAMLIT/EXPLORATION/"
 dossier_visualisation = "C:/Env_Python/Projet DS accidents/FOR_STREAMLIT/DATAVISUALIZATION/"
@@ -59,17 +59,28 @@ if page == pages[0] :
     st.write("### TABLES CARACTERISTIQUES")
     st.write("décrit les circonstances générales de l'accident : colonnes et types des tables **caracteristiques** par année")
     st.dataframe(lire_csv_avec_index(dossier_exploration,"carac_types.csv"))
+    st.write("shapes par année")
+    st.dataframe(lire_csv_avec_index(dossier_exploration,"carac_shapes.csv"))
     st.write("### TABLES LIEUX")
     st.write("décrit le lieu principal de l'accident  : colonnes et types des tables **lieux** par année ")
     st.write("(Warning de dtype detecté au moment de la lecture des bases années :)")
     st.code(lire_texte(dossier_exploration,"DtypeWarning.txt"))
     st.dataframe(lire_csv_avec_index(dossier_exploration,"lieux_types.csv"))
+    st.write("shapes par année")
+    st.dataframe(lire_csv_avec_index(dossier_exploration,"lieux_shapes.csv"))
     st.write("### TABLES VEHICULES ")
     st.write("description du ou des véhicules impliqués : colonnes et types des bases **vehicule** par année")
     st.dataframe(lire_csv_avec_index(dossier_exploration,"vehicule_types.csv"))
+    st.write("shapes par année")
+    st.dataframe(lire_csv_avec_index(dossier_exploration,"vehicule_shapes.csv"))
     st.write("### TABLES USAGERS ")
     st.write("description des usagers impliqués et de la gravité de la blessure corporelle  : colonnes et types des bases **usagers** par année")
     st.dataframe(lire_csv_avec_index(dossier_exploration,"usagers_types.csv"))
+    st.write("shapes par année")
+    st.dataframe(lire_csv_avec_index(dossier_exploration,"usagers_shapes.csv"))
+    st.divider()
+    st.write("## Dimension du dataset assemblé")
+    st.code(lire_texte(dossier_exploration, "final_shape.txt"))
     st.write("## Echantillon random du dataset assemblé")
     st.dataframe(lire_csv_avec_index(dossier_exploration,"sample.csv").head(10))
     st.write("## Describe du dataset assemblé ")
@@ -88,7 +99,8 @@ if page == pages[1] :
     # SELECTION DE LA VARIABLE QU'ON VEUT ANALYSER------------------------------------------------------------------------------------
     suivi_analyse = lire_csv_avec_index(dossier_visualisation,"suivi_analyse.csv")
     colonnes_disponibles = suivi_analyse["colonne"].tolist()
-    colonne = st.selectbox( "Choisissez une variable à analyser", sorted(colonnes_disponibles, key=str.lower))
+    colonne_lib = st.selectbox( "Choisissez une variable à analyser", sorted(colonnes_disponibles, key=str.lower))
+    colonne = colonne_lib.split(" ")[0]
 
     # Graphique 1 : répartition des modalités----------------------------
     st.subheader(f"Répartition de la variable « {colonne} »")

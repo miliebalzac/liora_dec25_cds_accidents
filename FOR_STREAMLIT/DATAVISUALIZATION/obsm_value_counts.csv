@@ -1,8 +1,8 @@
 obsm_label;count
-Animal domestique;569
-Animal sauvage;1578
-Aucun;135794
-Autre;9318
-Piéton;102803
-Véhicule;451698
-Véhicule sur rail;698
+0 Aucun;135794
+1 Piéton;102803
+2 Véhicule;451698
+4 Véhicule sur rail;698
+5 Animal domestique;569
+6 Animal sauvage;1578
+9 Autre;9318

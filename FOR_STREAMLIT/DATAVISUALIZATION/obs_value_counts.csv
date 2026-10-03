@@ -1,19 +1,19 @@
 obs_label;count
-Arbre;12868
-Autre glissière;1383
-Autre obs sur chaussée;5049
-Autre obs sur trottoir;4491
-Batiment, mur;9363
-Bordure de trottoir;5607
-Buse;877
-Fossé / Talus;14594
-Glissière béton;10914
-Glissière métallique;10788
-Ilot;1301
-Mobilier urbain;3881
-Parapet;867
-Poteau;9209
-Sans objet;588958
-Sortie sans obs;3135
-Support de signalisation;2424
-Véhicule stationné;16749
+0 Sans objet;588958
+1 Véhicule stationné;16749
+10 Parapet;867
+11 Ilot;1301
+12 Bordure de trottoir;5607
+13 Fossé / Talus;14594
+14 Autre obs sur chaussée;5049
+15 Autre obs sur trottoir;4491
+16 Sortie sans obs;3135
+17 Buse;877
+2 Arbre;12868
+3 Glissière métallique;10788
+4 Glissière béton;10914
+5 Autre glissière;1383
+6 Batiment, mur;9363
+7 Support de signalisation;2424
+8 Poteau;9209
+9 Mobilier urbain;3881

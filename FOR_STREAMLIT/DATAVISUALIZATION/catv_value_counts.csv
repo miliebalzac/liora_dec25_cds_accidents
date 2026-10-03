@@ -1,32 +1,32 @@
 catv_label;count
-3RM <= 50 cm3;106
-3RM > 125 cm3;3734
-3RM > 50 cm3 <= 125 cm3;149
-Autobus;6964
-Autocar;2838
-Autre véhicule;2974
-Bicyclette;31837
-Cyclomoteur <50cm3;20630
-EDP sans moteur;1304
-EDP à moteur;11530
-Engin spécial;776
-Indéterminable;1490
-Motocyclette > 125 cm3;48086
-Motocyclette > 50 cm3 et <= 125 cm3;10355
-PL > 3,5T + remorque;5896
-PL seul 3,5T < PTCA <= 7,5T;2577
-PL seul > 7,5T;4757
-Quad lourd > 50 cm3;1286
-Quad léger <= 50 cm3;157
-Scooter < 50 cm3;17416
-Scooter > 125 cm3;6481
-Scooter > 50 cm3 et <= 125 cm3;13295
-Tracteur agricole;1655
-Tracteur routier + semi-remorque;3975
-Tracteur routier seul;218
-Train;338
-Tramway;1150
-VAE;3561
-VL seul;443519
-VU seul 1,5T <= PTAC <= 3,5T avec ou sans remorque;49029
-Voiturette (Quadricycle à moteur carrossé);4375
+0 Indéterminable;1490
+1 Bicyclette;31837
+10 VU seul 1,5T <= PTAC <= 3,5T avec ou sans remorque;49029
+13 PL seul 3,5T < PTCA <= 7,5T;2577
+14 PL seul > 7,5T;4757
+15 PL > 3,5T + remorque;5896
+16 Tracteur routier seul;218
+17 Tracteur routier + semi-remorque;3975
+2 Cyclomoteur <50cm3;20630
+20 Engin spécial;776
+21 Tracteur agricole;1655
+3 Voiturette (Quadricycle à moteur carrossé);4375
+30 Scooter < 50 cm3;17416
+31 Motocyclette > 50 cm3 et <= 125 cm3;10355
+32 Scooter > 50 cm3 et <= 125 cm3;13295
+33 Motocyclette > 125 cm3;48086
+34 Scooter > 125 cm3;6481
+35 Quad léger <= 50 cm3;157
+36 Quad lourd > 50 cm3;1286
+37 Autobus;6964
+38 Autocar;2838
+39 Train;338
+40 Tramway;1150
+41 3RM <= 50 cm3;106
+42 3RM > 50 cm3 <= 125 cm3;149
+43 3RM > 125 cm3;3734
+50 EDP à moteur;11530
+60 EDP sans moteur;1304
+7 VL seul;443519
+80 VAE;3561
+99 Autre véhicule;2974

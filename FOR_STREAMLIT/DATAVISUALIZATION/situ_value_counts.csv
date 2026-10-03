@@ -1,8 +1,8 @@
 situ_label;count
-Accotement;36544
-Autres;19158
-Bande d'arrêt d'urgence;5533
-Chaussée;607391
-Piste cyclable;13657
-Trottoir;11760
-Voie spéciale;8415
+1 Chaussée;607391
+2 Bande d'arrêt d'urgence;5533
+3 Accotement;36544
+4 Trottoir;11760
+5 Piste cyclable;13657
+6 Voie spéciale;8415
+8 Autres;19158

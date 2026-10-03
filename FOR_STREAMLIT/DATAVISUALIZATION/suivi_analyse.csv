@@ -1,32 +1,32 @@
 ;colonne
-0;place
-1;catu
-2;sexe
-3;classe_age
-4;secu1
-5;mois_g
-6;an
-7;hrmn_g
-8;lum_g
-9;dep
-10;DENS
-11;agg
-12;int_g
-13;atm
-14;col
-15;catr
-16;circ
-17;nbv
-18;vosp
-19;prof
-20;plan
-21;surf
-22;infra
-23;situ
-24;vma_g
-25;catv
-26;obs
-27;obsm
-28;choc
-29;manv_g
-30;motor
+0;place (Place occupée dans le véhicule)
+1;catu (Catégorie d'usager)
+2;sexe (Sexe de l'usager)
+3;classe_age (classe d'age de l'usage = année de l'accident - année de naissance de l'usager puis classé par intervales)
+4;secu1 (Équipement de sécurité 1)
+5;mois_g (mois de l'accident groupé par saison)
+6;an (année de l'accident)
+7;hrmn_g (Heure de l'accident classée selon 4 intervales)
+8;lum_g (conditions d’éclairage lors de l'accident groupé en 4 catégories)
+9;dep (Code INSEE du département, Corse groupée dans 20)
+10;DENS (Densité de population de la commune de l'accident)
+11;agg (En ou hors agglomération)
+12;int_g (En intersection ou hors intersection)
+13;atm (Conditions atmosphériques)
+14;col (Type de collision)
+15;catr (Catégorie de route)
+16;circ (Régime de circulation)
+17;nbv (Nombre total de voies)
+18;vosp (Existence d’une voie réservée)
+19;prof (Profil en long)
+20;plan (Tracé en plan)
+21;surf (État de la surface)
+22;infra (Aménagement - Infrastructure)
+23;situ (Situation de l’accident)
+24;vma_g (Vitesse maximale autorisée groupée en intervales)
+25;catv (Catégorie du véhicule)
+26;obs (Obstacle fixe heurté)
+27;obsm (Obstacle mobile heurté)
+28;choc (Point de choc initial)
+29;manv_g (Manœuvre principale avant l’accident, groupé)
+30;motor (Type de motorisation du véhicule)
