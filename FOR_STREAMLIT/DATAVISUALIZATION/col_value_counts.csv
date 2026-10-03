@@ -1,8 +1,8 @@
 col_label;count
-2 veh : arrière;100601
-2 veh : coté;224124
-2 veh : frontale;78981
-3 veh et + : col multiples;37392
-3 veh et + : en chaine;46858
-Autre col;171333
-Pas de collision;43169
+1 2 veh : frontale;78981
+2 2 veh : arrière;100601
+3 2 veh : coté;224124
+4 3 veh et + : en chaine;46858
+5 3 veh et + : col multiples;37392
+6 Autre col;171333
+7 Pas de collision;43169

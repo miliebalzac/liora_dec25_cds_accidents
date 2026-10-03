@@ -1,10 +1,10 @@
 atm_label;count
-Autre;3180
-Brouillard - fumée;5212
-Neige - grêle;2813
-Normale;552959
-Pluie forte;16517
-Pluie légère;78798
-Temps couvert;28101
-Temps éblouissant;12810
-Vent fort - tempête;2068
+1 Normale;552959
+2 Pluie légère;78798
+3 Pluie forte;16517
+4 Neige - grêle;2813
+5 Brouillard - fumée;5212
+6 Vent fort - tempête;2068
+7 Temps éblouissant;12810
+8 Temps couvert;28101
+9 Autre;3180

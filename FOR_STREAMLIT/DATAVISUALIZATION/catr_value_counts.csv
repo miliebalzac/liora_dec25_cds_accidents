@@ -1,9 +1,9 @@
 catr_label;count
-Autoroute;83509
-Autre;3447
-Hors réseau public;665
-Parc de stationnement;4904
-Route Départementale;263457
-Route Métropole;23074
-Route Nationale;38469
-Voie Communale;284933
+1 Autoroute;83509
+2 Route Nationale;38469
+3 Route Départementale;263457
+4 Voie Communale;284933
+5 Hors réseau public;665
+6 Parc de stationnement;4904
+7 Route Métropole;23074
+9 Autre;3447

@@ -1,5 +1,5 @@
 grav_label;count
-Blessé hospitalisé;114383
-Blessé léger;296806
-Indemne;313673
-Tué;19877
+1 Indemne;313673
+2 Tué;19877
+3 Blessé hospitalisé;114383
+4 Blessé léger;296806

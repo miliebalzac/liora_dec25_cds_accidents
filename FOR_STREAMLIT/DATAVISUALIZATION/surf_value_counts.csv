@@ -1,10 +1,10 @@
 surf_label;count
-Autre;2855
-Boue;428
-Corps gras;891
-Enneigée;1299
-Flaques;1077
-Inondée;339
-Mouillée;131914
-Normale;560960
-Verglacée;2695
+1 Normale;560960
+2 Mouillée;131914
+3 Flaques;1077
+4 Inondée;339
+5 Enneigée;1299
+6 Boue;428
+7 Verglacée;2695
+8 Corps gras;891
+9 Autre;2855

@@ -1,5 +1,5 @@
 circ_label;count
-A chaussée séparée;110646
-A sens unique;127182
-Bidirectionnelle;460369
-Voie d'affectation variable;4261
+1 A sens unique;127182
+2 Bidirectionnelle;460369
+3 A chaussée séparée;110646
+4 Voie d'affectation variable;4261
