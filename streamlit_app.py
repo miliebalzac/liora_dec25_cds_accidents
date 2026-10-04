@@ -232,23 +232,21 @@ if page == pages[3] :
     obsm_choisi = st.selectbox( "Choisissez obsm : La présence d'un obstacle mobile ", obsm_possibles)
 
     # colonnes attendues par le modèle (ordre strict) 
-    colonnes_pour_modele = [
-        'secu1_1.0', 'secu1_2.0', 'secu1_3.0', 'secu1_4.0', 'secu1_5.0',
-        'secu1_6.0', 'secu1_7.0', 'secu1_8.0', 'secu1_9.0', 'catv_1.0',
-        'catv_10.0', 'catv_13.0', 'catv_14.0', 'catv_15.0', 'catv_16.0',
-        'catv_17.0', 'catv_2.0', 'catv_20.0', 'catv_21.0', 'catv_3.0',
-        'catv_30.0', 'catv_31.0', 'catv_32.0', 'catv_33.0', 'catv_34.0',
-        'catv_35.0', 'catv_36.0', 'catv_37.0', 'catv_38.0', 'catv_39.0',
-        'catv_40.0', 'catv_41.0', 'catv_42.0', 'catv_43.0', 'catv_50.0',
-        'catv_60.0', 'catv_7.0', 'catv_80.0', 'catv_99.0', 'DENS_2.0',
-        'DENS_3.0', 'manv_1.0', 'manv_10.0', 'manv_11.0', 'manv_12.0',
-        'manv_13.0', 'manv_14.0', 'manv_15.0', 'manv_16.0', 'manv_17.0',
-        'manv_18.0', 'manv_19.0', 'manv_2.0', 'manv_20.0', 'manv_21.0',
-        'manv_22.0', 'manv_23.0', 'manv_24.0', 'manv_25.0', 'manv_26.0',
-        'manv_3.0', 'manv_4.0', 'manv_5.0', 'manv_6.0', 'manv_7.0', 'manv_8.0',
-        'manv_9.0', 'obsm_0.0', 'obsm_1.0', 'obsm_2.0', 'obsm_4.0', 'obsm_5.0',
-        'obsm_6.0', 'obsm_9.0'
-    ]
+    colonnes_pour_modele = ['secu1_1.0', 'secu1_2.0', 'secu1_3.0', 'secu1_4.0', 'secu1_5.0',
+       'secu1_6.0', 'secu1_7.0', 'secu1_8.0', 'secu1_9.0', 'catv_1.0',
+       'catv_10.0', 'catv_13.0', 'catv_14.0', 'catv_15.0', 'catv_16.0',
+       'catv_17.0', 'catv_2.0', 'catv_20.0', 'catv_21.0', 'catv_3.0',
+       'catv_30.0', 'catv_31.0', 'catv_32.0', 'catv_33.0', 'catv_34.0',
+       'catv_35.0', 'catv_36.0', 'catv_37.0', 'catv_38.0', 'catv_39.0',
+       'catv_40.0', 'catv_41.0', 'catv_42.0', 'catv_43.0', 'catv_50.0',
+       'catv_60.0', 'catv_7.0', 'catv_80.0', 'catv_99.0', 'DENS_2.0',
+       'DENS_3.0', 'manv_1.0', 'manv_10.0', 'manv_11.0', 'manv_12.0',
+       'manv_13.0', 'manv_14.0', 'manv_15.0', 'manv_16.0', 'manv_17.0',
+       'manv_18.0', 'manv_19.0', 'manv_2.0', 'manv_20.0', 'manv_21.0',
+       'manv_22.0', 'manv_23.0', 'manv_24.0', 'manv_25.0', 'manv_26.0',
+       'manv_3.0', 'manv_4.0', 'manv_5.0', 'manv_6.0', 'manv_7.0', 'manv_8.0',
+       'manv_9.0', 'obsm_1.0', 'obsm_2.0', 'obsm_4.0', 'obsm_5.0', 'obsm_6.0',
+       'obsm_9.0']
 
     # traduction description > code ---------------------------------------------------------------
     
