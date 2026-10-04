@@ -226,10 +226,10 @@ if page == pages[3] :
     manv_mapping = lire_csv_avec_index(dossier_modelisation,"manv_mapping.csv")
     manv_possibles = manv_mapping["description"].tolist()
     manv_choisi = st.selectbox("Choisissez manv : La manoeuvre au moment de l'accident ", manv_possibles)
-    # obs : présence d'un obstacle fixe
-    obs_mapping = lire_csv_avec_index(dossier_modelisation,"obs_mapping.csv")
-    obs_possibles = obs_mapping["description"].tolist()
-    obs_choisi = st.selectbox( "Choisissez obs : La présence d'un obstacle fixe ", obs_possibles)
+    # obsm : présence d'un obstacle mobile
+    obsm_mapping = lire_csv_avec_index(dossier_modelisation,"obsm_mapping.csv")
+    obsm_possibles = obsm_mapping["description"].tolist()
+    obsm_choisi = st.selectbox( "Choisissez obsm : La présence d'un obstacle mobile ", obsm_possibles)
 
     # colonnes attendues par le modèle (ordre strict) 
     colonnes_pour_modele = [
@@ -246,9 +246,8 @@ if page == pages[3] :
         'manv_18.0', 'manv_19.0', 'manv_2.0', 'manv_20.0', 'manv_21.0',
         'manv_22.0', 'manv_23.0', 'manv_24.0', 'manv_25.0', 'manv_26.0',
         'manv_3.0', 'manv_4.0', 'manv_5.0', 'manv_6.0', 'manv_7.0', 'manv_8.0',
-        'manv_9.0', 'obs_1.0', 'obs_10.0', 'obs_11.0', 'obs_12.0', 'obs_13.0',
-        'obs_14.0', 'obs_15.0', 'obs_16.0', 'obs_17.0', 'obs_2.0', 'obs_3.0',
-        'obs_4.0', 'obs_5.0', 'obs_6.0', 'obs_7.0', 'obs_8.0', 'obs_9.0'
+        'manv_9.0', 'obsm_0.0', 'obsm_1.0', 'obsm_2.0', 'obsm_4.0', 'obsm_5.0',
+        'obsm_6.0', 'obsm_9.0'
     ]
 
     # traduction description > code ---------------------------------------------------------------
@@ -266,7 +265,7 @@ if page == pages[3] :
         "catv":  code_depuis_description(catv_mapping,  "catv",  catv_choisi),
         "DENS":  code_depuis_description(DENS_mapping,  "DENS",  DENS_choisi),
         "manv":  code_depuis_description(manv_mapping,  "manv",  manv_choisi),
-        "obs":   code_depuis_description(obs_mapping,   "obs",   obs_choisi),
+        "obsm":  code_depuis_description(obsm_mapping,  "obsm",  obsm_choisi),
     }
 
     # construction du dataframe X_a_tester avec les colonnes attendues par le modèle---------------------------------------------------------------
