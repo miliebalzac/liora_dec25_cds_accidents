@@ -1,32 +1,32 @@
 ;catv;description
-0;0.0;Indéterminable
-1;1.0;Bicyclette
-2;10.0;VU seul 1,5T <= PTAC <= 3,5T avec ou sans remorque
-3;13.0;PL seul 3,5T < PTCA <= 7,5T
-4;14.0;PL seul > 7,5T
-5;15.0;PL > 3,5T + remorque
-6;16.0;Tracteur routier seul
-7;17.0;Tracteur routier + semi-remorque
-8;2.0;Cyclomoteur <50cm3
-9;20.0;Engin spécial
-10;21.0;Tracteur agricole
-11;3.0;Voiturette (Quadricycle à moteur carrossé)
-12;30.0;Scooter < 50 cm3
-13;31.0;Motocyclette > 50 cm3 et <= 125 cm3
-14;32.0;Scooter > 50 cm3 et <= 125 cm3
-15;33.0;Motocyclette > 125 cm3
-16;34.0;Scooter > 125 cm3
-17;35.0;Quad léger <= 50 cm3
-18;36.0;Quad lourd > 50 cm3
-19;37.0;Autobus
-20;38.0;Autocar
-21;39.0;Train
-22;40.0;Tramway
-23;41.0;3RM <= 50 cm3
-24;42.0;3RM > 50 cm3 <= 125 cm3
-25;43.0;3RM > 125 cm3
-26;50.0;EDP à moteur
-27;60.0;EDP sans moteur
-28;7.0;VL seul
-29;80.0;VAE
-30;99.0;Autre véhicule
+0;0.0;0 Indéterminable
+1;1.0;1 Bicyclette
+2;10.0;10 VU seul 1,5T <= PTAC <= 3,5T avec ou sans remorque
+3;13.0;13 PL seul 3,5T < PTCA <= 7,5T
+4;14.0;14 PL seul > 7,5T
+5;15.0;15 PL > 3,5T + remorque
+6;16.0;16 Tracteur routier seul
+7;17.0;17 Tracteur routier + semi-remorque
+8;2.0;2 Cyclomoteur <50cm3
+9;20.0;20 Engin spécial
+10;21.0;21 Tracteur agricole
+11;3.0;3 Voiturette (Quadricycle à moteur carrossé)
+12;30.0;30 Scooter < 50 cm3
+13;31.0;31 Motocyclette > 50 cm3 et <= 125 cm3
+14;32.0;32 Scooter > 50 cm3 et <= 125 cm3
+15;33.0;33 Motocyclette > 125 cm3
+16;34.0;34 Scooter > 125 cm3
+17;35.0;35 Quad léger <= 50 cm3
+18;36.0;36 Quad lourd > 50 cm3
+19;37.0;37 Autobus
+20;38.0;38 Autocar
+21;39.0;39 Train
+22;40.0;40 Tramway
+23;41.0;41 3RM <= 50 cm3
+24;42.0;42 3RM > 50 cm3 <= 125 cm3
+25;43.0;43 3RM > 125 cm3
+26;50.0;50 EDP à moteur
+27;60.0;60 EDP sans moteur
+28;7.0;7 VL seul
+29;80.0;80 VAE
+30;99.0;99 Autre véhicule

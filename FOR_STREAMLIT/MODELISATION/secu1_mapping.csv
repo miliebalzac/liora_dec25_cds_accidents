@@ -1,11 +1,11 @@
 ;secu1;description
-0;0.0;Aucun équipement
-1;1.0;Ceinture
-2;2.0;Casque
-3;3.0;Dispositif enfants
-4;4.0;Gilet réfléchissant
-5;5.0;Airbag
-6;6.0;Gants
-7;7.0;Gants + Airbag
-8;8.0;Non déterminable
-9;9.0;Autre
+0;0.0;0 Aucun équipement
+1;1.0;1 Ceinture
+2;2.0;2 Casque
+3;3.0;3 Dispositif enfants
+4;4.0;4 Gilet réfléchissant
+5;5.0;5 Airbag
+6;6.0;6 Gants
+7;7.0;7 Gants + Airbag
+8;8.0;8 Non déterminable
+9;9.0;9 Autre
